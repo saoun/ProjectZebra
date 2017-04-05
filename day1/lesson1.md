@@ -5,7 +5,7 @@
 
 ## Seeing Files
 - ls
-Will list files in th current working directory
+Will list files in the current working directory
 - ls -a
 Will list ALL files in the current directory, including hidden ones
 
