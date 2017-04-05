@@ -8,7 +8,7 @@
 - Vim
 
 ## Extend Sublime
-- Install sublime package manager: www.packagecontrol.io
+- Install sublime package manager: packagecontrol.io
 - Install the following packages:
 1- Color Highlighter
 2- CSS3
