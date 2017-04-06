@@ -77,7 +77,7 @@ console.log(declaredInside) // returns an error
     - The name of the argument can be anything and it'll only exist inside the *scope* (or { } brackets) of the function.
 ```js
 function oneArgument(word) {
-    console.log("I like ") 
+    console.log("I like " + word) 
 }
 
 oneArgument("cheese.") // "I like cheese"
@@ -90,7 +90,7 @@ function twoArguments(word, number) {
 
 twoArguments(" puppies", 7) // I want 7 puppies
 
-console.log(word, number) // error
+console.log(word, number) // error, because word and number are out of the functions's scope.
 ```
 
 6. Using "return"
@@ -124,12 +124,12 @@ function addZ(string) {
     return string + "zzzzzzzzzzzzz"
 }
 
-function loveCats(string) {
+function loveThings(string) {
     return string + addZ(string) + makeYelling(string)
 }
 
-loveCats(word) // returns Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
+loveThings(word) // returns Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
 
-console.log(loveCats(word)) //logs Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
+console.log(loveThings(word)) //logs Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
 
 ```
