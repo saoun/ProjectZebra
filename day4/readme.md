@@ -14,3 +14,5 @@
 - Variables
 - Functions
 - repl.it >> https://repl.it/languages/javascript
+- String Concatenation
+- The console, javascript execution order & hoisting
