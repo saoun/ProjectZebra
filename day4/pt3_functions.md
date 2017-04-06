@@ -13,8 +13,10 @@ function myNewFunction(word) {
 
 myNewFunction("world!"))
 // console logs "Hello world!"
+
 myNewFunction("Sarah!"))
 // console logs "Hello Sarah!"
+
 myNewFunction(999)
 // console logs "Hello 999"
 ```
@@ -47,13 +49,14 @@ var functionTwo = function() {
 }
 
 functionOne() // hi 
+
 functionTwo() // hello
 
 ```
 
 4. Scope
     - Variables declared inside a function only exist inside the function.
-    - Variables declared outside a function *can* exist inside the function too if they aren't inside another function's *scope*
+    - Variables declared outside a function *can* exist inside the function too if they aren't inside another function's *scope* (or { } brackets)
 ```js
 var declaredOutside = "I'm outside"
 
@@ -65,12 +68,13 @@ function scopePractice() {
 scopePractice() // returns "I'm outside! I'm inside!"
 
 console.log(declaredOutside) // returns "I'm outside!"
+
 console.log(declaredInside) // returns an error
 ```
 
 5. Arguments
     - Arguments are what the things you pass into a function are called
-    - The name of the argument can be anything and it'll only exist inside the *scope* of the function.
+    - The name of the argument can be anything and it'll only exist inside the *scope* (or { } brackets) of the function.
 ```js
 function oneArgument(word) {
     console.log("I like ") 
@@ -85,6 +89,7 @@ function twoArguments(word, number) {
 }
 
 twoArguments(" puppies", 7) // I want 7 puppies
+
 console.log(word, number) // error
 ```
 
@@ -101,6 +106,7 @@ function makeYelling(string) {
 }
 
 makeYelling(word) // returns "Dog!!@$#!@!!!!!!11"
+
 console.log(makeYelling(word)) // logs "Dog!!@$#!@!!!!!!11"
 
 ```
@@ -123,6 +129,7 @@ function loveCats(string) {
 }
 
 loveCats(word) // returns Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
+
 console.log(loveCats(word)) //logs Catzzzzzzzzzzzzz!!@$#!@!!!!!!11
 
 ```
