@@ -2,9 +2,9 @@
 ## Javascript Intro
 
 - What is... Javascript?
-    -  programming language that can alter HTML elements and allow websites to be more interactive.
 - ES5 vs ES6 (Javascript versions)
 - what is jQuery (Javascript Library)
+- what is React or Angular (Javascript Framework)
 - Data types
     + Strings 
     + Numbers
@@ -12,7 +12,9 @@
     + Booleans
     + Objects
 - Variables
-- Functions
-- repl.it >> https://repl.it/languages/javascript
 - String Concatenation
 - The console, javascript execution order & hoisting, comments
+- Functions
+- repl.it >> https://repl.it/languages/javascript
+- Code Academy >> https://www.codecademy.com/learn/learn-javascript
+- Challenges >> https://coderbyte.com/challenges

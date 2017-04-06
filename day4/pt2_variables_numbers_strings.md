@@ -20,7 +20,7 @@ console.log(number1+number2)
 2. String Concatenation
 ```js
 var string1 = "Hello"
-var string2 = "World"
+var string2 = " World"
 
 // ******
 // What does string1 + string2 = ?
@@ -77,42 +77,42 @@ var number1 = 2
 var number2 = 2
 
 // ******
-//What will these operations return?
+//Just read over these
 // ******
 
 // Addition
 // ******
-number1 + number2
+number1 + number2 // = 4
 
 console.log("Addition | " + (number1 + number2))
 
 // Subtraction
 // ******
-number1 - number2
+number1 - number2 // = 0
 
 console.log("Subtraction | " + (number1 - number2))
 
 // Multiplication
 // ******
-number1 * number2
+number1 * number2 // = 4
 
 console.log("Multiplication | " + (number1 * number2))
 
 // Division
 // ******
-number1 / number2
+number1 / number2 // = 1
 
 console.log("Division | " + (number1 / number2))
 
 // Modulus (division remainder)
 // ******
-number1 % number2
+number1 % number2 // = 0
 
 console.log("Modulus | " + (number1 % number2))
 
 // Parenthesis 
 // ******
-number1 - (number2 * number2)
+number1 - (number2 * number2) // = -2
 
 console.log("Parenthesis | " + (number1 | (number2 * number2)))
 
@@ -194,6 +194,7 @@ var number2 = 2
 
 number1 + number2 // equals 4
 number1 + number2 // still equals 4
+number1 // = 2
 
 console.log("Number1 is still | " + number1)
 
@@ -201,8 +202,8 @@ console.log("Number1 is still | " + number1)
 // number1 DOES change in the line below - it becomes 4 then 6
 // ******
 
-number1 += number2 // equals 4
-number1 += number2 // equals 6
+number1 += number2 // number1 = equals 4
+number1 += number2 // number1 = equals 6
 
 console.log("Number1 is now | " + number1)
 
@@ -223,4 +224,18 @@ string1 += string2
 
 console.log(string1)
 
+```
+
+10. Construct a sentence!
+
+```js
+var numberOfCats = 0;
+var sentence = ""
+
+// ******
+// Change the variables above to construct the sentence: "I have 3 cats!"
+// Run this code in repl.it to see it
+// ******
+
+console.log(sentence)
 ```
