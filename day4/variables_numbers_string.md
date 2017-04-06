@@ -1,8 +1,8 @@
 # Variables & Numbers & Strings
 
-####Try to answer without code then run these questions in repl.it to see the answers!
+#### Try to answer without code then run these questions in repl.it to see the answers!
 
-####https://repl.it/languages/javascript <<< go here to run the code!
+#### https://repl.it/languages/javascript <<< go here to run the code!
 
 1. Math
 ```js
