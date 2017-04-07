@@ -6,3 +6,7 @@
 - HTML concepts (nesting, etc)
 - CSS concepts (specificity, etc)
 - Google is your friend. StackOverflow 
+- 
+[Flexbox Froggy](flexboxfroggy.com)
+[CSS Garden](cssgridgarden.com)
+[CSS Veggies!](https://flukeout.github.io)
