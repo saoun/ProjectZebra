@@ -1,4 +1,4 @@
-# Advanced Typography
+# Typography pt 2
 
  - CSS lesson
 
