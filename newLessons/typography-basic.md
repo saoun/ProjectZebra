@@ -72,6 +72,7 @@ With CSS, we use the `line-height` property to set the spacing.
 ```CSS
 p {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 22px;
   line-height: 140%;
 }
 ```
