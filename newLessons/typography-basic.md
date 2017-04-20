@@ -6,9 +6,9 @@
  - Styling font really good
 
 
-According to [Butterick's Practical Typography](http://practicaltypography.com/), there are a number of styling guidelines to follow for pleasant, easy-to-read text. This online book has a lot of useful guidelines for things like: when to use “curly quotes” vs "straight quotes" or: the proper way to mix different font styles.
+[Butterick's Practical Typography](http://practicaltypography.com/) has a ton of amazing advice on typography topics.
 
-I'll use take some page-layout and text-styling guidelines from the book to demonstrate how to style your text with CSS.
+I'll use some page-layout and text-styling guidelines from the book to demonstrate how to style your text with CSS.
 
 Specifically we'll cover:
 
