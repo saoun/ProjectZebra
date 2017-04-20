@@ -35,7 +35,10 @@ Cat slap dog in face hide at bottom of staircase to trip human so refuse to leav
 
 Looks pretty bad, right? Everything is squished together and the text stretches from one end of the window to the next.
 
+****
 ### Font Size & Line spacing
+****
+
 According Buttericks, we should style the body text first before anything else. So let's choose a font (scary!), size it, and adjust the line spacing.
 
 ##### font-family { }
@@ -96,7 +99,9 @@ Apply these styles to your CSS box in the jsfiddle and click "run".
 
 What a difference!
 
+****
 ### Centering and Aligning the text
+****
 
 So, Buttericks (you're sick of this name aren't you?) has a [very precise](http://practicaltypography.com/line-length.html) recommendation for how wide your text bodies should be and where they should be.
 
@@ -165,8 +170,9 @@ h1 {
 
 Style the header some more with some of the tricks you learned!
 
-
-###### Full code:
+*****
+#### Full code:
+*****
 
 ```CSS
 p {
