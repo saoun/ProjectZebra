@@ -3,7 +3,7 @@
 
 ## What we'll cover
 
- - Styling font really good
+ - Styling fonts
 
 
 [Butterick's Practical Typography](http://practicaltypography.com/) has a ton of amazing advice on typography topics.
