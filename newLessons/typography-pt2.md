@@ -31,10 +31,8 @@ HTML:
 
 ```
 
-and
-
-CSS"
-```
+and CSS:
+```CSS
 font-family: 'Roboto', sans-serif;
 ```
 
